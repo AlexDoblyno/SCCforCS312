@@ -86,7 +86,7 @@ We have a visited set that stores at most $V$ nodes. In the worst-case scenario 
 - Theoretical order of growth: $O(V + E)$, liner
 - Empirical order of growth (if different from theoretical): The empirical data  supports the theoretical complexity in low densities, but shows some deviation at higher densities.
 
-![baselinescc.png](baselinescc.png)[img](img.png)
+![base.png](base.png)[img](base.png)
 
 Although the algorithm is theoretically linear, the observed supralinear growth in dense graphs is likely due to system overhead distinct from algorithmic complexity.
 
@@ -178,7 +178,7 @@ We need to store the reversed graph, which contains a new adjacency list for all
 - Comparing Size 4000 ($11.051s$) to Size 8000 ($26.727s$),  $26.727 / 11.051 \approx 2.42$.
 - The runtime increased by a factor of $2.42$, which is noticeably higher than the expected factor of 2.
 
-![corescc.png](corescc.png)
+![core.png](core.png)
 (somehow the generated empirical.svg is almost the same like last one.)
 
 
